@@ -62,7 +62,7 @@ public class Dictionary {
     EventQueue.invokeLater(new Runnable() {
       public void run() {
         try {
-          Dictionary window = new Dictionary();
+          //Dictionary window = new Dictionary();
           window.frmDictionary.setVisible(true);
         } catch (Exception e) {
           e.printStackTrace();
